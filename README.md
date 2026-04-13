@@ -18,6 +18,22 @@ It computes the average score for a list of student marks and maps that average 
 - Dedicated test binary for core functions
 - `Makefile` workflow for build and test
 
+## Quick Start
+
+```bash
+make build
+```
+
+## Tests
+
+```bash
+make test
+```
+
+## License
+
+MIT License. See `LICENSE`.
+
 ## Project Structure
 
 ```text
@@ -30,24 +46,8 @@ software-engineering-lab-inclass-b/
 └── Makefile
 ```
 
-## Build
-
-```bash
-make build
-```
-
 ## Run
 
 ```bash
 ./gradebook 95 88 74 100
 ```
-
-## Test
-
-```bash
-make test
-```
-
-## License
-
-MIT License. See `LICENSE`.
